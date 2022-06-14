@@ -1,0 +1,40 @@
+#root {
+    min-height: 100vh
+}
+
+.bg-light {
+    background-color: rgb(230 230 230);
+    min-height: inherit;
+}
+.bg-dark {
+    background-color: #424242;
+    min-height: inherit;
+}
+
+
+#root .header-light{
+    background-color: #fafafa;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#root .header-dark{
+    background-color: #212121;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#root .country-detail_wrap {
+    display: flex;
+    margin-top: 50px;
+}
+.border-country {
+    margin-right: 10px !important;
+    margin-bottom: 10px!important;
+}
+.border-country +.border-country {
+   
+}
+.country-detail_wrap p {
+    margin-bottom: 5px;
+}
